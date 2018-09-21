@@ -34,9 +34,6 @@
         <li class="nav-item">
           <a class="nav-link" href="register.php">Register</a>
         </li>
-        <li id="disconnect" class="nav-item">
-          <a class="nav-link" href="register.php">Disconnect</a>
-        </li>
     </div>
   </nav>
 </header>
