@@ -5,7 +5,7 @@ include('header.php');
 <div class="row m-auto">
 
 <form  class="border border-success mx-auto col-4 my-5 rounded text-center" method="post" action="register_post.php">
-<p class="text-center font-weight-bold">Register</p>
+<p class="text-center font-weight-bold">Inscription</p>
 <label class="ml-5 " for="pseudo">Pseudo</label>
 <input id="pseudo" type="text" name="pseudo" placeholder="Toto" required><br/>
 <label class="ml-2" for="password">Mot de passe </label>
