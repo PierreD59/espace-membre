@@ -12,8 +12,8 @@ catch(Exception $e)
 }
 
 $pwd = password_hash($_POST['password'], PASSWORD_DEFAULT);
-$pseudo = $_POST['pseudo'];
-$email = $_POST['email'];
+$pseudo = htmlspecialchars($_POST['pseudo']);
+$email = htmlspecialchars($_POST['email']);
 
 if(isset($pseudo) AND !empty($pseudo) AND isset($pwd) AND !empty($pwd) AND isset($email) AND !empty($email) AND preg_match("#^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$#", $_POST['email']))
 {
